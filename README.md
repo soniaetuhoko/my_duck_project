@@ -7,6 +7,7 @@ It uses State Management to listen to your problems. You type a question into th
 
 
 **key Feautures**
+
 -StatefuWidget & setState: I useda StatefulWidget because the Ui is reactive. When the user types a problem and clicks the button, setState tels Fluttr to rebuild the speech bubble with the nes answer.
 
 -TextEditingController: This is the listener. It captures the string from the TextField so the logic can process what the user is complaining about.
@@ -16,8 +17,7 @@ It uses State Management to listen to your problems. You type a question into th
 -Future.delayed: I added an async delay to simulate thinking' time.
 
 
-**How to run the App** 
--Flutter run -d chrome 
+**How to run the App** - Flutter run -d chrome 
 
 **When the app starts running- type in a short sentence and paste to see the duck's interactions.
 
